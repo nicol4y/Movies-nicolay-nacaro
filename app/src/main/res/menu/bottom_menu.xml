@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/menu"
+        android:id="@+id/nowPlaying"
+        android:title="Now playing"/>
+    <item
+        android:icon="@drawable/ticket"
+        android:id="@+id/nowTickets"
+        android:title="My tickets"/>
+</menu>
