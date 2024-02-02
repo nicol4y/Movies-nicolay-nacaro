@@ -6,7 +6,8 @@ import retrofit2.http.GET;
 
 public interface API {
     String BASE_URL = "https://api.themoviedb.org/3/movie/";
-    @GET("now_playing?api_key=6d2f816815fbf99dffdf87112732556e&language=en-US&page=1&region=CA")
+    @GET("now_playing?api_key=")
     public Call<MovieResponse> getAllMovies();
 
 }
+// Replace the empty string with your own APi key
